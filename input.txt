@@ -1,0 +1,20 @@
+TYPES OF PARSING
+There are two types of parsing:
+i). Top-down parsing
+ii). Bottom-up parsing
+I). TOP-DOWN PARSING
+Top-down parsing is a parsing strategy that finds the derivation of the input string from the start symbol of
+the grammar.
+There are two main approaches for top-down parsing:
+a) Recursive descent parsing
+b) Predictive parsing
+a) Recursive Descent Parsing
+It is a common form of top-down parsing that uses a parsing technique, which recursively parses the input to
+make a parse tree from the top and the input is read from left to right. It is called recursive, as it uses
+recursive procedures to process the input. The central idea is that each nonterminal in the grammar is
+implemented by a procedure in the program.
+Generally, these parsers consist of a set of mutually recursive routines that may require back-tracking to
+create the parse tree.
+Backtracking: It means, if one derivation of a production fails, the syntax analyser restarts the process using
+different rules of same production. This technique may process the input string more than once to determine
+the right production
